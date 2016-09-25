@@ -15,6 +15,10 @@ resources :links
 
 resources :visits
 
+get '/' => 'links#index'
+
 get '/:slug' => 'visits#create'
 
 end
+
+
